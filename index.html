@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile UI</title>
+    <link rel="stylesheet" href="css/styles.css">
+<style>
+    .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: calc(100vh - 50px); /* تعيين ارتفاع الحاوية بالكامل تحت الناف بار */
+}
+
+.content-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+</style>
+   
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="aboutme.html" target="content-frame">About Me</a></li>
+            <li><a href="whatIdo.html" target="content-frame">What I do</a></li>
+            <li><a href="skillimage.html" target="content-frame">Skills</a></li>
+            <li><a href="goodAt.html" target="content-frame">Good At</a></li>
+            <li><a href="contact.html" target="content-frame">Contact US</a></li>
+            <li><a href="feedBack.html" target="content-frame">feedBack</a></li>
+            <li><a href="hobbies.html" target="content-frame">Hobbies</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <iframe name="content-frame" class="content-frame" src="aboutme.html"></iframe>
+    </div>
+</body>
+
+
+
+
+</html>
